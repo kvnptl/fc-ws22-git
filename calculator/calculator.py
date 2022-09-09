@@ -26,7 +26,7 @@ def substract(num_1, num_2):
 	return num_1 - num_2
 def multiply(num_1, num_2):
 	"""
-	This function adds the two numbers num_1 * num_2.
+	This function multiplies the two numbers num_1 * num_2.
 	Parameters:
 		num_1 (int): The left-side number of the operation.
 		num_2 (int): The right-side number of the operation.
@@ -36,7 +36,7 @@ def multiply(num_1, num_2):
 	return num_1 * num_2
 def division(num_1, num_2):
 	"""
-	This function adds the two numbers num_1 / num_2.
+	This function divides the two numbers num_1 / num_2.
 	Parameters:
 		num_1 (int): The left-side number of the operation.
 		num_2 (int): The right-side number of the operation.
