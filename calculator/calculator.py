@@ -44,7 +44,7 @@ def division(num_1, num_2):
 		int: Result of the arithmetic division operation of the two numbers num_1, num_2.
 	"""
 	if num_2 == 0: raise Exception("Can't divide by 0!")
-	return num_1, num_2
+	return num_1 / num_2
 
 def initilization():
 	print("Initiating Calculator ...")
