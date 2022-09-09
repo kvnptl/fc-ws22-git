@@ -4,12 +4,15 @@ Date: 09.09.2022
 Email: ravisankar@dummygmail.com
 """
 
-add = lambda a, b: a + b
-substract = lambda a, b: a - b
-multiply = lambda a, b: a * b
-def division(a, b):
-	if b == 0: raise Exception("Can't divide by 0!")
-	return a / b
+def add(num_1, num_2):
+	return num_1 + num_2
+def substract(num_1, num_2):
+	return num_1 - num_2
+def multiply(num_1, num_2):
+	return num_1 * num_2
+def division(num_1, num_2):
+	if num_2 == 0: raise Exception("Can't divide by 0!")
+	return num_1, num_2
 
 def initilization():
 	print("Initiating Calculator ...")
