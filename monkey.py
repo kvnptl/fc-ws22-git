@@ -7,7 +7,7 @@ class Monkey (Animal):
     Params: name, height , is_predator , monkey_type , color m country
     '''
     
-    def __init(self, name, height, is_predator, monkey_type, color, country):
+    def __init__(self, name, height, is_predator, monkey_type, color, country):
         super().__init__(name,height,is_predator)
         self.moneky_type = monkey_type
         self.color = color
