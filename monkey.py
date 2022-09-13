@@ -27,3 +27,9 @@ class Monkey (Animal):
 chimp = Monkey('monkey',4 , False,'chimp', 'brown','india')
 chimp.sound(2)
 print(chimp)
+#ctrl z to open 
+#git init
+#git status
+#git add animal.py    monkey.py
+#git status
+#git commit -m "created animal class with monkey"
