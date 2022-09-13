@@ -1,0 +1,28 @@
+[0.805s] Invoking command in '/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/python_pubsub': PYTHONPATH=/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/python_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_pubsub build --build-base /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/python_pubsub/build install --prefix /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/python_pubsub --record /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/python_pubsub/install.log --single-version-externally-managed
+[1.095s] running egg_info
+[1.096s] creating ../build/python_pubsub/python_pubsub.egg-info
+[1.096s] writing ../build/python_pubsub/python_pubsub.egg-info/PKG-INFO
+[1.096s] writing dependency_links to ../build/python_pubsub/python_pubsub.egg-info/dependency_links.txt
+[1.096s] writing entry points to ../build/python_pubsub/python_pubsub.egg-info/entry_points.txt
+[1.097s] writing requirements to ../build/python_pubsub/python_pubsub.egg-info/requires.txt
+[1.097s] writing top-level names to ../build/python_pubsub/python_pubsub.egg-info/top_level.txt
+[1.106s] writing manifest file '../build/python_pubsub/python_pubsub.egg-info/SOURCES.txt'
+[1.154s] reading manifest file '../build/python_pubsub/python_pubsub.egg-info/SOURCES.txt'
+[1.155s] writing manifest file '../build/python_pubsub/python_pubsub.egg-info/SOURCES.txt'
+[1.155s] running build
+[1.155s] running build_py
+[1.155s] creating /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/python_pubsub/build
+[1.156s] creating /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/python_pubsub/build/lib
+[1.156s] creating /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/python_pubsub/build/lib/python_pubsub
+[1.156s] copying python_pubsub/__init__.py -> /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/python_pubsub/build/lib/python_pubsub
+[1.156s] running install
+[1.156s] running install_lib
+[1.157s] creating /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/python_pubsub/lib/python3.8/site-packages/python_pubsub
+[1.157s] copying /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/python_pubsub/build/lib/python_pubsub/__init__.py -> /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/python_pubsub/lib/python3.8/site-packages/python_pubsub
+[1.158s] byte-compiling /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/python_pubsub/lib/python3.8/site-packages/python_pubsub/__init__.py to __init__.cpython-38.pyc
+[1.159s] running install_data
+[1.160s] creating /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/python_pubsub/share/ament_index
+[1.160s] creating /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/python_pubsub/share/ament_index/resource_index
+[1.160s] creating /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/python_pubsub/share/ament_index/resource_index/packages
+[1.160s] error: can't copy 'resource/python_pubsub': doesn't exist or not a regular file
+[1.185s] Invoked command in '/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/python_pubsub' returned '1': PYTHONPATH=/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/python_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/python_pubsub build --build-base /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/python_pubsub/build install --prefix /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/python_pubsub --record /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/python_pubsub/install.log --single-version-externally-managed

@@ -1,0 +1,4 @@
+[console_scripts]
+publisher = src.simple_publisher:main
+subscriber = src.simple_subscriber:main
+
