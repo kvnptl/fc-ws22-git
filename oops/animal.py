@@ -27,7 +27,14 @@ class Animal:
     def introduce_yourself(self):
         print(f'I am {self.__name}. My height is {self.height}. Am I a predator? {self.is_predator}')
 
-dog = Animal('dog', 12)
-#dog.sound('bark',11)
+class AquaticAnimal:
+    def __init__(self, fish_name='', fish_type=''):
+        self.name = fish_name
+        self.type = fish_type
 
-#dog.introduce_yourself()
+
+    def type(self):
+        print(f'I am {self.type} fish')
+
+    def introduce(self):
+        print(f'I am {self.name}. I live in {self.type}')
