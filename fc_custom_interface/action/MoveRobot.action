@@ -1,0 +1,5 @@
+int32 destination
+---
+bool reached
+---
+int32 current_position
