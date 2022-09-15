@@ -21,4 +21,6 @@ class Cobra(Animal,Reptile):
         print(f'I can jump to {jump_height}')
 
 
-Cobra('Cobra','1.2',True,True,'blue','India').crawl()
+NewAnimal= Cobra('Cobra','1.2',True,True,'blue','India')
+NewAnimal.crawl()
+NewAnimal.introduce()
