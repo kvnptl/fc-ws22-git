@@ -1,13 +1,14 @@
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import String
+from std_msgs.msg import String 
+from fc_custom_interface.msg import CustomMessage
 
 class SimplePublisher(Node):
 
     def __init__(self):
         super().__init__("simple_publisher")
 
-        self.pub = self.create_publisher(String, '/physics', 10)
+        self.pub = self.create_publisher(CustomMessage, '/physics', 10)
 
         #set timer & counter
         time_period = 0.5 #in seconds
@@ -15,10 +16,20 @@ class SimplePublisher(Node):
         self.counter = 10000
     
     def timer_callback(self):
-        message = String()
-        message.data = f'The World will end in {self.counter} minutes'
+        message = CustomMessage()
+        message.name = "E3XAE"
+        message.death_count = self.counter
+        message.is_alive = False
+        message.persons_alive = ["F6RAE","GI9UY","JY7T5"]
+
+        #message.data = f'The World will end in {self.counter} minutes'
+
         self.pub.publish(message)
-        self.get_logger().info(f"publishing that World will end in {self.counter} minutes")
+        #self.get_logger().info(f"publishing that World will end in {self.counter} minutes")
+        self.get_logger().info(f'Death count is {message.death_count} \n\
+                                Name of the body is {message.name} \n\
+                                Is the body alive {message.is_alive}\n\
+                                Persons alive are {message.persons_alive}')
         self.counter = self.counter - 1
 
 def main(args=None):
