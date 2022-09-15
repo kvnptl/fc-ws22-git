@@ -1,4 +1,4 @@
-from oops.animal import Animal as A
+from animal import Animal as A
 
 class Monkey(A):
     '''
