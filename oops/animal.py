@@ -44,12 +44,18 @@ class Animal:
 
 
 dog = Animal('dog', 2, True)
+crocodile = Animal('crocodile', 3, True)
+crocodile.sound('hiss', 2)
+crocodile.introduce_yourself()
 
 #dog.sound('bark', 5)
 # dog.introduce_yourself()
 
 #dog._Animal__name = 'new dog'
+'''
 print(dog.name)
 
 dog.name = "new dog"
 print(dog.name)
+
+'''
