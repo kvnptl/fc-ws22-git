@@ -1,0 +1,11 @@
+{
+    "ros.distro": "rolling",
+    "python.autoComplete.extraPaths": [
+        "/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/install/python_pubsub/lib/python3.8/site-packages",
+        "/opt/ros/rolling/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/install/python_pubsub/lib/python3.8/site-packages",
+        "/opt/ros/rolling/lib/python3.8/site-packages"
+    ]
+}

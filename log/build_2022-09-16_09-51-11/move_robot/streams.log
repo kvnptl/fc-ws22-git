@@ -1,0 +1,22 @@
+[1.261s] Invoking command in '/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/move_robot': AMENT_PREFIX_PATH=/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/fc_custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/fc_custom_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/fc_custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot/lib/python3.8/site-packages:/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/fc_custom_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/move_robot build --build-base /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/move_robot/build install --prefix /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot --record /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/move_robot/install.log --single-version-externally-managed
+[1.544s] running egg_info
+[1.545s] writing ../build/move_robot/move_robot.egg-info/PKG-INFO
+[1.545s] writing dependency_links to ../build/move_robot/move_robot.egg-info/dependency_links.txt
+[1.546s] writing entry points to ../build/move_robot/move_robot.egg-info/entry_points.txt
+[1.546s] writing requirements to ../build/move_robot/move_robot.egg-info/requires.txt
+[1.546s] writing top-level names to ../build/move_robot/move_robot.egg-info/top_level.txt
+[1.588s] reading manifest file '../build/move_robot/move_robot.egg-info/SOURCES.txt'
+[1.590s] writing manifest file '../build/move_robot/move_robot.egg-info/SOURCES.txt'
+[1.590s] running build
+[1.590s] running build_py
+[1.590s] running install
+[1.591s] running install_lib
+[1.593s] running install_data
+[1.594s] running install_egg_info
+[1.597s] removing '/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot/lib/python3.8/site-packages/move_robot-0.0.0-py3.8.egg-info' (and everything under it)
+[1.597s] Copying ../build/move_robot/move_robot.egg-info to /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot/lib/python3.8/site-packages/move_robot-0.0.0-py3.8.egg-info
+[1.598s] running install_scripts
+[1.623s] Installing robot_action script to /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot/lib/move_robot
+[1.623s] Installing robot_client script to /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot/lib/move_robot
+[1.623s] writing list of installed files to '/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/move_robot/install.log'
+[1.663s] Invoked command in '/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/move_robot' returned '0': AMENT_PREFIX_PATH=/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/fc_custom_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/fc_custom_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/fc_custom_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot/lib/python3.8/site-packages:/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/fc_custom_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/move_robot build --build-base /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/move_robot/build install --prefix /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot --record /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/move_robot/install.log --single-version-externally-managed
