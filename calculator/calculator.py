@@ -4,28 +4,23 @@ Date: 09.09.2022
 Email: ravisankar@dummygmail.com
 """
 
-def initilization():
-	print("Initiating Calculator ...")
-
-	
-
-
-def main():
-	initilization()
-	
-number 1=float(input"Enter first number:"))
-number 2=float(input("Enter second number:"))
 def modulo(a,b)
 	modulo= a%b
 	return modulo 
-	print("result is:",modulo(number 1, number2))
+	"""This method  returns the module of the given two numbers
 	
-number 1=float(input"Enter first number:"))
-number 2=float(input("Enter second number:"))
+	Input Arguments: a,b must be number
+	Returns: Modulo of a and b.
+	"""
 def division(c,d)
  	div= c/d
  	return div
- print ("result is:",division(number 1, number2))
+ 	"""This method  returns the division of the given two numbers
+	
+	Input Arguments: a,b must be number
+	Returns: division of a and b.
+	"""	
+print(modulo._doc_)
+print (division.__doc__)
 
 
-main()
