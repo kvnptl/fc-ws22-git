@@ -7,6 +7,8 @@ class Alien:
     '''
     Params: alien_name, color, eye_count
     '''
+
+    #creating init function for Alien class
     def __init__(self, alien_name, color, eye_count):
         self.alien_name = alien_name
         self.color = color

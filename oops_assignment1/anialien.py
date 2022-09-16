@@ -10,19 +10,22 @@ class Anialien(Animal,Alien):
     '''
     Params: name, height, is_predator,alien_name, color, eye_count, child_type, is_hybrid
     '''
+
+    #creating init function for Anialient class
     def __init__(self, name, height, is_predator,alien_name, color, eye_count, child_type):
-        #super(child_type, self).__init__(name, height, is_predator,alien_name, color, eye_count)
         Alien.__init__(self,alien_name, color, eye_count)
         Animal.__init__(self, name, height, is_predator)
         self.child_type = child_type
     
+    #To check which planet the Anialien belongs to
     def planet(self, is_from_earth):
         self.native_planet = 'EARTH'
         if is_from_earth:
             print(f'I am anialien from planet {self.native_planet}')
         else:
             print(f'I am an anialien but I am not from EARTH')
-
+    
+    #To check if the sound of this creature is normal or abnormal
     def sound(self, is_normal_sound):
         self.db = 19
         self.sound_type = 'Oo Oo Oo Oooooooo'
@@ -33,5 +36,5 @@ class Anialien(Animal,Alien):
 
 aniAlien = Anialien('Tiger_53vVN',16,False,'53V3N_Tiger','Brown',4,'AniAlien')
 aniAlien.planet(TRUE)
-aniAlien.sound(FALSE)
+aniAlien.sound(TRUE)
 print(aniAlien)

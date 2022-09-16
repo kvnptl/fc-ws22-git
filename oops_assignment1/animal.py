@@ -12,6 +12,8 @@ class Animal:
     Params: name,, height, is_predator
     '''
     is_animal = True
+
+    #creating init fucntion
     def __init__(self, name, height, is_predator ):
         self.__name = name
         self.height = height
