@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from fc_custom_interface/action/MoveRobot.action
+// generated code does not contain a copyright notice
+
+
+module fc_custom_interface {
+  module action {
+    struct MoveRobot_Goal {
+      int32 destination;
+    };
+    struct MoveRobot_Result {
+      boolean reached;
+    };
+    struct MoveRobot_Feedback {
+      int32 current_position;
+    };
+  };
+};

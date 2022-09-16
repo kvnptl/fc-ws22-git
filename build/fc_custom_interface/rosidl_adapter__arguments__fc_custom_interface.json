@@ -1,0 +1,7 @@
+{
+  "package_name": "fc_custom_interface",
+  "non_idl_tuples": [
+    "/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/fc_custom_interface:msg/CustomMessage.msg",
+    "/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/fc_custom_interface:action/MoveRobot.action"
+  ]
+}

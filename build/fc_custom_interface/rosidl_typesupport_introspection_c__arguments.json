@@ -1,0 +1,37 @@
+{
+  "package_name": "fc_custom_interface",
+  "output_dir": "/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/fc_custom_interface/rosidl_typesupport_introspection_c/fc_custom_interface",
+  "template_dir": "/opt/ros/rolling/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/fc_custom_interface/rosidl_adapter/fc_custom_interface:msg/CustomMessage.idl",
+    "/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/fc_custom_interface/rosidl_adapter/fc_custom_interface:action/MoveRobot.idl"
+  ],
+  "ros_interface_dependencies": [
+    "action_msgs:/opt/ros/rolling/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/opt/ros/rolling/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/opt/ros/rolling/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/opt/ros/rolling/share/action_msgs/srv/CancelGoal.idl",
+    "builtin_interfaces:/opt/ros/rolling/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/rolling/share/builtin_interfaces/msg/Time.idl",
+    "unique_identifier_msgs:/opt/ros/rolling/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/rolling/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/opt/ros/rolling/lib/python3.8/site-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/opt/ros/rolling/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/rolling/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/opt/ros/rolling/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/rolling/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/opt/ros/rolling/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/rolling/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/fc_custom_interface/rosidl_adapter/fc_custom_interface/msg/CustomMessage.idl",
+    "/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/fc_custom_interface/rosidl_adapter/fc_custom_interface/action/MoveRobot.idl",
+    "/opt/ros/rolling/share/action_msgs/msg/GoalInfo.idl",
+    "/opt/ros/rolling/share/action_msgs/msg/GoalStatus.idl",
+    "/opt/ros/rolling/share/action_msgs/msg/GoalStatusArray.idl",
+    "/opt/ros/rolling/share/action_msgs/srv/CancelGoal.idl",
+    "/opt/ros/rolling/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/rolling/share/builtin_interfaces/msg/Time.idl",
+    "/opt/ros/rolling/share/unique_identifier_msgs/msg/UUID.idl"
+  ]
+}

@@ -1,0 +1,39 @@
+running egg_info
+creating ../build/move_robot/move_robot.egg-info
+writing ../build/move_robot/move_robot.egg-info/PKG-INFO
+writing dependency_links to ../build/move_robot/move_robot.egg-info/dependency_links.txt
+writing entry points to ../build/move_robot/move_robot.egg-info/entry_points.txt
+writing requirements to ../build/move_robot/move_robot.egg-info/requires.txt
+writing top-level names to ../build/move_robot/move_robot.egg-info/top_level.txt
+writing manifest file '../build/move_robot/move_robot.egg-info/SOURCES.txt'
+reading manifest file '../build/move_robot/move_robot.egg-info/SOURCES.txt'
+writing manifest file '../build/move_robot/move_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/move_robot/build
+creating /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/move_robot/build/lib
+creating /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/move_robot/build/lib/move_robot
+copying move_robot/move_robot_client.py -> /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/move_robot/build/lib/move_robot
+copying move_robot/move_robot_action.py -> /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/move_robot/build/lib/move_robot
+copying move_robot/__init__.py -> /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/move_robot/build/lib/move_robot
+running install
+running install_lib
+creating /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot/lib/python3.8/site-packages/move_robot
+copying /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/move_robot/build/lib/move_robot/move_robot_client.py -> /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot/lib/python3.8/site-packages/move_robot
+copying /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/move_robot/build/lib/move_robot/move_robot_action.py -> /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot/lib/python3.8/site-packages/move_robot
+copying /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/move_robot/build/lib/move_robot/__init__.py -> /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot/lib/python3.8/site-packages/move_robot
+byte-compiling /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot/lib/python3.8/site-packages/move_robot/move_robot_client.py to move_robot_client.cpython-38.pyc
+byte-compiling /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot/lib/python3.8/site-packages/move_robot/move_robot_action.py to move_robot_action.cpython-38.pyc
+byte-compiling /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot/lib/python3.8/site-packages/move_robot/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot/share/ament_index
+creating /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot/share/ament_index/resource_index
+creating /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot/share/ament_index/resource_index/packages
+copying resource/move_robot -> /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot/share/move_robot
+running install_egg_info
+Copying ../build/move_robot/move_robot.egg-info to /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot/lib/python3.8/site-packages/move_robot-0.0.0-py3.8.egg-info
+running install_scripts
+Installing robot_action script to /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot/lib/move_robot
+Installing robot_client script to /home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/install/move_robot/lib/move_robot
+writing list of installed files to '/home/gokul/Desktop/Foundation_Course/VS_Code/Python_VS/src/build/move_robot/install.log'

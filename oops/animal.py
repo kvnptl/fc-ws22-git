@@ -49,8 +49,8 @@ class Animal:
         pass
 
 dog = Animal("Pug", 2, True)
-# dog.sound(67, "Bark")
-#dog.introduceYourself()
+dog.sound(67, "Bark")
+dog.introduceYourself()
 #dog._Animal__name = "dfds"
 
 #dog.setPrivate("fdff")

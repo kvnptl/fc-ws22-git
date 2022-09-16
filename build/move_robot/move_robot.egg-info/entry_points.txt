@@ -1,0 +1,4 @@
+[console_scripts]
+robot_action = move_robot.move_robot_action:main
+robot_client = move_robot.move_robot_client:main
+
