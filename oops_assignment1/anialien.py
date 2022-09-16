@@ -8,18 +8,20 @@ from alien import Alien
 
 class Anialien(Animal,Alien):
     '''
-    Params: name, height, is_predator,alien_name, color, eye_count, child_type, is_hybrid
+    Params: name, height, is_predator,alien_name, color, eye_count, child_type
     '''
 
     #creating init function for Anialient class
-    def __init__(self, name, height, is_predator,alien_name, color, eye_count, child_type):
+    # def __init__(self, child_type,  **kwargs): #using kwargs to use the params in child super class
+    def __init__(self,name, height, is_predator,alien_name, color, eye_count, child_type):
+        Animal.__init__(self,name, height, is_predator)
         Alien.__init__(self,alien_name, color, eye_count)
-        Animal.__init__(self, name, height, is_predator)
         self.child_type = child_type
     
     #To check which planet the Anialien belongs to
     def planet(self, is_from_earth):
         self.native_planet = 'EARTH'
+        self.limbs_count = 5
         if is_from_earth:
             print(f'I am anialien from planet {self.native_planet}')
         else:
@@ -34,7 +36,7 @@ class Anialien(Animal,Alien):
         else:
             print(f'My sound decibles is not normal and the decibles is {self.db}')
 
-aniAlien = Anialien('Tiger_53vVN',16,False,'53V3N_Tiger','Brown',4,'AniAlien')
+aniAlien = Anialien('Tiger_53V3N',9, TRUE, '5EV3N_Tiger', 'Brown Green', 4, 'Anialien')
 aniAlien.planet(TRUE)
 aniAlien.sound(TRUE)
 print(aniAlien)

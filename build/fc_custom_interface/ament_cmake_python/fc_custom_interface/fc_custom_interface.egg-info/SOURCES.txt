@@ -4,3 +4,7 @@ fc_custom_interface.egg-info/PKG-INFO
 fc_custom_interface.egg-info/SOURCES.txt
 fc_custom_interface.egg-info/dependency_links.txt
 fc_custom_interface.egg-info/top_level.txt
+fc_custom_interface/action/__init__.py
+fc_custom_interface/action/_move_robot.py
+fc_custom_interface/msg/__init__.py
+fc_custom_interface/msg/_custom_message.py

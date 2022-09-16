@@ -14,7 +14,8 @@ class Animal:
     is_animal = True
 
     #creating init fucntion
-    def __init__(self, name, height, is_predator ):
+    # def __init__(self, name, height, is_predator, **kwargs): #using kwargs to use the params in child super class
+    def __init__(self, name, height, is_predator):
         self.__name = name
         self.height = height
         self.is_predator = is_predator
@@ -48,11 +49,11 @@ class Animal:
     
     
 
-    def __str__(self):
-        return f'I am called {self.__name} and I sound {self.sound_type}'
+    # def __str__(self):
+    #     return f'I am called {self.__name} and I sound {self.sound_type}'
 
-    def __repr__(self):
-        pass
+    # def __repr__(self):
+    #     pass
 
 dog = Animal("Pug", 2, True)
 # dog.sound(67, "Bark")
